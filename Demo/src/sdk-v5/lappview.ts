@@ -202,7 +202,9 @@ export class LAppView {
     );
 
     const live2DManager: LAppLive2DManager = LAppLive2DManager.getInstance();
-    live2DManager.onDrag(viewX, viewY);
+    // live2DManager.onDrag(viewX, viewY);
+    const sensitivity = 0.35; // 可改为 0.2~0.6 逐步调试
+    live2DManager.onDrag(viewX * sensitivity, viewY * sensitivity);
   }
 
   /**
