@@ -17,23 +17,44 @@
       ],
       "TapBody": [
         {
-          "File": "Motions_Tap生气 -领结_0.json",
-          "Text": "嘉心糖屁用没有"
+          "File": "Motions_Tap笑- 脸_0.json",
+          "Text": "hi！嘉心糖"
         },
         {
           "File": "Motions_Tap抱阿草-左手_0.json",
           "Text": "阿草好软呀~"
-        }
-      ],
-      "TapHead": [
+        },
         {
           "File": "Motions_Tap害羞-中间刘海_0.json",
           "Text": "想然然了没有呀~"
         },
+        
         {
-          "File": "Motions_Tap笑- 脸_0.json",
-          "Text": "hi！嘉心糖"
+          "File": "Motions_Tap生气 -领结_0.json",
+          "Text": "嘉心糖屁用没有"
+        },
+        {
+          "File": "Motions_Tap哭 -眼角_0.json",
+          "Text": "呜呜...呜呜呜....",
+          "TextDelay": 3200,
+          "TextDuration": 4000
+        },
+        {
+          "File": "Motions_Tap打瞌睡- 呆毛_0.json",
+          "Text": "啊",
+          "TextDelay": 7500,
+          "TextDuration": 800
+        },
+        {
+          "File": "Motions_Tap右头发_0.json",
+          "Text": "哇！好吃的！",
+          "TextDelay": 500,
+          "TextDuration": 3000
         }
+      ],
+      "TapHead": [
+        
+        
       ],
 
       "Tap生气 -领结": [
