@@ -4,12 +4,13 @@
   "Textures": ["Textures_.png"],
    "Physics": "Physics.json", 
    "PhysicsV2": {"File": "Physics.json"}, 
-   "Motions": { "TapBody": [
+   "Motions": { 
+                "Idle": [{"File": "Motions_Idle_0.json"}], 
+                "TapBody": [
 
                  {"File": "Motions_Tap笑- 脸_0.json", "Text": "hi！嘉心糖"},
                  {"File": "Motions_Tap抱阿草-左手_0.json", "Text": "阿草好软呀~", "TextDelay": 3000, "TextDuration": 2500}
                 ],
-                "Idle": [{"File": "Motions_Idle_0.json"}], 
                 "Tap生气 -领结": [{"File": "Motions_Tap生气 -领结_0.json","Text": "嘉心糖屁用没有", "TextDelay": 2000, "TextDuration": 3000}], 
                 "Tap= =  左蝴蝶结": [{"File": "Motions_Tap= =  左蝴蝶结_0.json", "Text": "有人急了，但我不说是谁~", "TextDelay": 1000, "TextDuration": 4000}],
                 "Tap笑- 脸": [{"File": "Motions_Tap笑- 脸_0.json", "Text": "hi！嘉心糖", "TextDelay": 2200, "TextDuration": 2300}], 
@@ -45,7 +46,7 @@
                 "ArtmeshColor": {}, 
                 "ArtmeshCulling": {"DefaultMode": 0},
                  "IntimacySystem": {}}, 
-                 "HitAreas": [{"Name": "Head", "Id": "HitArea"}, 
+                 "HitAreas": [{"Name": "Body", "Id": "HitArea"}, 
                  {"Name": "笑- 脸", "Id": "ArtMesh51"},
                   {"Name": "哭 -眼角", "Id": "ArtMesh48"}, 
                   {"Name": "生气 -领结", "Id": "ArtMesh56"}, 
